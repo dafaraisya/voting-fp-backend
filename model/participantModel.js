@@ -17,7 +17,10 @@ var participantSchema = mongoose.Schema({
         type: Date,
     },
     voting: {
-        id_candidate: {
+        id_candidate_bem: {
+            type: String,
+        },
+        id_candidate_legislatif: {
             type: String,
         },
         time: {

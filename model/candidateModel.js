@@ -2,6 +2,10 @@ var mongoose = require('mongoose');
 
 // Setup schema
 var candidateSchema = mongoose.Schema({
+    type: {
+        type: String,
+        required: true
+    },
     name: {
         type: String,
         required: true

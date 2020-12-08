@@ -237,7 +237,8 @@ exports.vote = function (req, res) {
     { _id: req.body.id_participant },
     {
       $set: {
-        "voting.id_candidate": req.body.id_candidate,
+        "voting.id_candidate_bem": req.body.id_candidate_bem,
+        "voting.id_candidate_legislatif": req.body.id_candidate_legislatif,
         "voting.time": Date(),
         "voting.counted": 0,
       },

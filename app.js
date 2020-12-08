@@ -19,7 +19,7 @@ let bodyParser = require('body-parser');
 let mongoose = require('mongoose');
 
 // Connect to mongoose and set connection variable 
-mongoose.connect('mongodb://127.0.0.1:27017/voting', {useNewUrlParser: true});
+mongoose.connect('mongodb://127.0.0.1:27017/voting', {useNewUrlParser: true, useUnifiedTopology: true});
 var db = mongoose.connection;
                                                                                                                                                           
 var app = express();

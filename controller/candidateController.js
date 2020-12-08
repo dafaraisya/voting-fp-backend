@@ -66,6 +66,7 @@ exports.new = function (req, res) {
   
 
   var candidate = new Candidate();
+  candidate.type = req.body.type;
   candidate.name = req.body.name;
   candidate.number = req.body.number;
   candidate.image = "avatar.jpg";
@@ -105,6 +106,7 @@ exports.update = function (req, res) {
     { _id: id },
     {
       $set: {
+        type: req.body.type,
         name: req.body.name,
         number: req.body.number,
         "description.short": req.body.shortDescription,
