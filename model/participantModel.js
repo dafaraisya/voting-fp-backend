@@ -23,6 +23,9 @@ var participantSchema = mongoose.Schema({
         id_candidate_legislatif: {
             type: String,
         },
+        id_candidate_legislatif2: {
+            type: String,
+        },
         time: {
             type: Date,
         },

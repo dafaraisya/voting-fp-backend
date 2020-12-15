@@ -22,16 +22,11 @@ var ip = [
   "114.5.109.44",
   "182.2.37.131",
   "120.188.74.160",
-  "182.2.39.180"
+  "182.2.39.180",
 ];
 
 // Handle index actions
 exports.send = function (req, res) {
-  if(!ip.includes(req.ip.replace('::ffff:', ''))){
-    console.log(req.ip.replace('::ffff:', ''));
-
-    return res.status(500).send();
-}
   Setting.get(function (err, settings) {
     if (err) {
       res.json({
@@ -48,7 +43,7 @@ exports.send = function (req, res) {
     );
 
     var transporter = nodemailer.createTransport({
-      host: "smtp.zoho.com",
+      host: "smtp.gmail.com",
       port: 465,
       secure: true,
       auth: {
@@ -60,11 +55,11 @@ exports.send = function (req, res) {
     var mailOptions = {
       from: setting.email.email,
       to: req.body.to,
-      subject: "PEMIRA FMIPA UNS 2020",
+      subject: "PEMIRA FT UNS 2020",
       html:
         "<h1>Halo " +
         req.body.name +
-        "</h1><p>Kami mengundang anda untuk mengikuti PEMIRA FMIPA UNS 2020. Berikut kami lampirkan kartu pemilihan anda beserta dengan tata cara pemilihan.</p>",
+        "</h1><p>Kami mengundang anda untuk mengikuti PEMIRA FT UNS 2020. Berikut kami lampirkan kartu pemilihan anda beserta dengan tata cara pemilihan.</p>",
       attachments: [
         {
           filename:
@@ -72,17 +67,18 @@ exports.send = function (req, res) {
           content: votingCardImage,
         },
         {
-          filename: "Tata Cara Pemilihan PEMIRA FMIPA UNS 2020.pdf",
+          filename: "Tata Cara Pemilihan PEMIRA FT UNS 2020.pdf",
           contentType: "application/pdf",
-          path: "http://pemira.fmipauns.com/procedure.pdf",
+          path: "http://localhost/procedure.pdf",
         },
       ],
     };
 
     transporter.sendMail(mailOptions, (err, info) => {
-      console.log("error: "+JSON.stringify(err));
-      console.log("info: "+JSON.stringify(info));
-      if (err) return res.status(500).send(err);
+      console.log("setting: " + JSON.stringify(setting));
+      console.log("error: " + JSON.stringify(err));
+      console.log("info: " + JSON.stringify(info));
+      if (err) return res.status(500).json(err);
 
       Participant.findOneAndUpdate(
         {
@@ -94,7 +90,7 @@ exports.send = function (req, res) {
           },
         },
         function (err, participant) {
-          if (err) return res.status(500).send(err);    
+          if (err) return res.status(500).send(err);
 
           return res.json({
             message: "New Email sent!",

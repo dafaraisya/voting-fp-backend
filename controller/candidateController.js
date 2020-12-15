@@ -63,8 +63,6 @@ exports.index = function (req, res) {
 
 // Handle create actions
 exports.new = function (req, res) {
-  
-
   var candidate = new Candidate();
   candidate.type = req.body.type;
   candidate.name = req.body.name;
@@ -74,8 +72,6 @@ exports.new = function (req, res) {
   candidate.description.short = req.body.shortDescription;
   candidate.description.mission = req.body.missionDescription;
   candidate.description.vision = req.body.visionDescription;
-
-  console.log(JSON.stringify(candidate));
 
   // Save and validate
   candidate.save(function (err) {
@@ -106,7 +102,6 @@ exports.update = function (req, res) {
     { _id: id },
     {
       $set: {
-        type: req.body.type,
         name: req.body.name,
         number: req.body.number,
         "description.short": req.body.shortDescription,
