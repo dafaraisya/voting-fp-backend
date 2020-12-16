@@ -55,11 +55,11 @@ exports.send = function (req, res) {
     var mailOptions = {
       from: setting.email.email,
       to: req.body.to,
-      subject: "PEMIRA FT UNS 2020",
+      subject: "PEMIRA FP UNS 2020",
       html:
         "<h1>Halo " +
         req.body.name +
-        "</h1><p>Kami mengundang anda untuk mengikuti PEMIRA FT UNS 2020. Berikut kami lampirkan kartu pemilihan anda beserta dengan tata cara pemilihan.</p>",
+        "</h1><p>Kami mengundang anda untuk mengikuti PEMIRA FP UNS 2020. Berikut kami lampirkan kartu pemilihan anda beserta dengan tata cara pemilihan.</p>",
       attachments: [
         {
           filename:
@@ -67,7 +67,7 @@ exports.send = function (req, res) {
           content: votingCardImage,
         },
         {
-          filename: "Tata Cara Pemilihan PEMIRA FT UNS 2020.pdf",
+          filename: "Tata Cara Pemilihan PEMIRA FP UNS 2020.pdf",
           contentType: "application/pdf",
           path: "http://localhost/procedure.pdf",
         },
