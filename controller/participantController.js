@@ -112,1642 +112,1824 @@ exports.new = function (req, res) {
 
   var participants = [
     {
-      "name": "Sastra Yudha Pamungkas",
-      "nim": "H0719167",
-      "departemen": "Agroteknologi",
+      "name": "Fauza Dwi Saputri",
+      "nim": "H0919045",
+      "departemen": "Ilmu Teknologi Pangan",
       "year": 2019,
-      "email": "sastrayudha@student.uns.ac.id"
+      "email": "Fauzadwi30@student.uns.ac.id"
     },
     {
-      "name": "Fèbri Muhammad N",
-      "nim": "H0719070",
-      "departemen": "Agroteknologi",
+      "name": "Tyo Isnandika",
+      "nim": "H0920095",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "tyoisnandika98@student.uns.ac.id"
+    },
+    {
+      "name": "Rizca Febry Tiana",
+      "nim": "H0918076",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2018,
+      "email": "rizcafebrytiana@student.uns.ac.id"
+    },
+    {
+      "name": "Dara Ninggar Hanifa",
+      "nim": "H0918021",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2018,
+      "email": "daraninggar01@student.uns.ac.id"
+    },
+    {
+      "name": "Putri Intan Berliana",
+      "nim": "H0920076",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "putriintan@student.uns.ac.id"
+    },
+    {
+      "name": "Navila rahma maulida",
+      "nim": "H0920069",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "navilarahma@student.uns.ac.id"
+    },
+    {
+      "name": "Rheza Ardian Saputra",
+      "nim": "H0920082",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "rhezaardian@student.uns.ac.id"
+    },
+    {
+      "name": "Pusti Nariswari Balindra",
+      "nim": "H0920075",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "pusti@student.uns.ac.id"
+    },
+    {
+      "name": "Sumayyah Hanaani09",
+      "nim": "H0919097",
+      "departemen": "Ilmu Teknologi Pangan",
       "year": 2019,
-      "email": "febri.muhnas@student.uns.ac.id"
+      "email": "hananots@student.uns.ac.id"
     },
     {
-      "name": "Gina Safira Picasso",
-      "nim": "H0719082",
-      "departemen": "Agroteknologi",
+      "name": "Mikael Figo Bara Erlangga",
+      "nim": "H0919065",
+      "departemen": "Ilmu Teknologi Pangan",
       "year": 2019,
-      "email": "ginasafiraa@student.uns.ac.id"
+      "email": "figobara1@student.uns.ac.id"
     },
     {
-      "name": "Febrian Maharani",
-      "nim": "H0719071",
-      "departemen": "Agroteknologi",
+      "name": "Karimah",
+      "nim": "H0920049",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "karimah56@student.uns.ac.id"
+    },
+    {
+      "name": "Masqueena Clarissa D",
+      "nim": "H0920056",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "masqueenaclarissa@student.uns.ac.id"
+    },
+    {
+      "name": "Shynta Yuliyani",
+      "nim": "H0920086",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "shynyull127@student.uns.ac.id"
+    },
+    {
+      "name": "Nadzifa Cindy Carissa Putri",
+      "nim": "H0920064",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "nadzifac@student.uns.ac.id"
+    },
+    {
+      "name": "Mu'adz",
+      "nim": "H0919067",
+      "departemen": "Ilmu Teknologi Pangan",
       "year": 2019,
-      "email": "febrianmaharani@student.uns.ac.id"
+      "email": "muadz01@student.uns.ac.id"
     },
     {
-      "name": "Muhammad Dio Nugroho Anindra Putra",
-      "nim": "H0719124",
-      "departemen": "Agroteknologi",
+      "name": "Athallah Oxy Pradana",
+      "nim": "H0920015",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "oxyathallah@student.uns.ac.id"
+    },
+    {
+      "name": "Ahmad Alifandi",
+      "nim": "H0920005",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "ahmad.alifandi77@student.uns.ac.id"
+    },
+    {
+      "name": "Dita Amelia Wulandari",
+      "nim": "H0919040",
+      "departemen": "Ilmu Teknologi Pangan",
       "year": 2019,
-      "email": "Dioanindra@student.uns.ac.id"
+      "email": "Ditaameliaw@student.uns.ac.id"
     },
     {
-      "name": "Wahid Mu'tashim Billah",
-      "nim": "H0716123",
-      "departemen": "Agroteknologi",
-      "year": 2016,
-      "email": "wahidmutashim@student.uns.ac.id"
+      "name": "Btari Naura Khalianatantry",
+      "nim": "H0920025",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "btarinaura@student.uns.ac.id"
     },
     {
-      "name": "Agustina Melani Widyowati",
-      "nim": "H0719002",
-      "departemen": "Agroteknologi",
+      "name": "Belinda Sonata",
+      "nim": "H0919025",
+      "departemen": "Ilmu Teknologi Pangan",
       "year": 2019,
-      "email": "agustinamelani30@students.uns.ac.id"
+      "email": "belindasonata_23@student.uns.ac.id"
     },
     {
-      "name": "Aulia Rahma",
-      "nim": "H0717021",
-      "departemen": "Agroteknologi",
+      "name": "Noah Presley Norel",
+      "nim": "H0920071",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "norelnoah@student.uns.ac.id"
+    },
+    {
+      "name": "Rossinta Ratna Komala Sudarman",
+      "nim": "H0919089",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2019,
+      "email": "rossinta.r.k.s20@student.uns.ac.id"
+    },
+    {
+      "name": "Reza Sintha Arbiniyanti",
+      "nim": "H0920081",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "reza.sintha@student.uns.ac.id"
+    },
+    {
+      "name": "Tirsa Anastasya Handoyo",
+      "nim": "H0920093",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "tasyahandoyo@student.uns.ac.id"
+    },
+    {
+      "name": "Aulia Nuril Khasanah",
+      "nim": "H0920018",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "aulianuril@student.uns.ac.id"
+    },
+    {
+      "name": "Karina Anastasya Putri",
+      "nim": "H0919057",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2019,
+      "email": "karinaanastasya@student.uns.ac.id"
+    },
+    {
+      "name": "Qanita Syahshiyah",
+      "nim": "H0920077",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "qanitasyahshiyah@student.uns.ac.id"
+    },
+    {
+      "name": "Nadiatul Khusna",
+      "nim": "H0919071",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2019,
+      "email": "nadiaalkhusna22@student.uns.ac.id"
+    },
+    {
+      "name": "Sarah al zahra",
+      "nim": "H0920084",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "Sarahalzahra3@student.uns.ac.id"
+    },
+    {
+      "name": "Tholibah Shofi Nur Syafaqoh",
+      "nim": "H0920091",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "tholibahshofi22@student.uns.ac.id"
+    },
+    {
+      "name": "Verena Elika Widyastari",
+      "nim": "H0920097",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "verenaelika@student.uns.ac.id"
+    },
+    {
+      "name": "Alya Sabrina Pramesti",
+      "nim": "H0920007",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "alyasabrina2601@student.uns.ac.id"
+    },
+    {
+      "name": "Annisa Fitri",
+      "nim": "H0919015",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2019,
+      "email": "annisaf27@student.uns.ac.id"
+    },
+    {
+      "name": "Cysca Tyakusuma Pradani",
+      "nim": "H0920027",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "cyscapradani@student.uns.ac.id"
+    },
+    {
+      "name": "Annida Rachma Wijaya",
+      "nim": "H0920010",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "annidarachmawijaya@student.uns.ac.id"
+    },
+    {
+      "name": "Annisa Estiqomah",
+      "nim": "H0919014",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2019,
+      "email": "annisa.estiqomah@student.uns.ac.id"
+    },
+    {
+      "name": "Fadil Nurhidayat",
+      "nim": "H0920032",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "fadil_nurhidayat@student.uns.ac.id"
+    },
+    {
+      "name": "Aurini Dwi Diana Sari",
+      "nim": "H0920019",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "aurinidwi08@student.uns.ac.id"
+    },
+    {
+      "name": "Muhammad Nanang Ilham Kusumah",
+      "nim": "H0920060",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "ilhammkusumah@student.uns.ac.id"
+    },
+    {
+      "name": "Sarah Mutmainah",
+      "nim": "H0920085",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "mutmainahsarah14@student.uns.ac.id"
+    },
+    {
+      "name": "Fannisa Wardhani",
+      "nim": "H0919044",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2019,
+      "email": "fannisa0910@student.uns.ac.id"
+    },
+    {
+      "name": "Amalia Ristanti",
+      "nim": "H0919005",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2019,
+      "email": "amaliaristanti035@student.uns.ac.id"
+    },
+    {
+      "name": "Siti Khodijah Putri Wibisono",
+      "nim": "H0919093",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2019,
+      "email": "putriwibisono@student.uns.ac.id"
+    },
+    {
+      "name": "Arrum Hamidah Kurniasih",
+      "nim": "H0920014",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "arrumhk_18@student.uns.ac.id"
+    },
+    {
+      "name": "Flora Camellia",
+      "nim": "H0919047",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2019,
+      "email": "floracamellia@student.uns.ac.id"
+    },
+    {
+      "name": "Fathimah Attaqiyyah",
+      "nim": "H0918031",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2018,
+      "email": "fattaqiyya29@student.uns.ac.id"
+    },
+    {
+      "name": "Gabriale Unar sharif",
+      "nim": "H0920040",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "gabriales29@student.uns.ac.id"
+    },
+    {
+      "name": "Arlansyach Alwan Fauzan",
+      "nim": "H0919020",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2019,
+      "email": "arlanalwan2000@student.uns.ac.id"
+    },
+    {
+      "name": "Zahro Musa",
+      "nim": "H0917088",
+      "departemen": "Ilmu Teknologi Pangan",
       "year": 2017,
-      "email": "rahma.asa27@student uns.ac.id"
+      "email": "Musazzzahro99@student.uns.ac.id"
     },
     {
-      "name": "Moch. Irfan Khakim",
-      "nim": "H0720106",
-      "departemen": "Agroteknologi",
+      "name": "Felita Fasya",
+      "nim": "H0920035",
+      "departemen": "Ilmu Teknologi Pangan",
       "year": 2020,
-      "email": "irfanhkm11@student.uns.ac.id"
+      "email": "felitafasya12@student.uns.ac id"
     },
     {
-      "name": "Mohamad Abror Hidayat",
-      "nim": "H0720107",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "muhammadabrorhidayat@student.uns.ac.id"
-    },
-    {
-      "name": "Catalina Dara Ayu Az-Zahra",
-      "nim": "H0718043",
-      "departemen": "Agroteknologi",
-      "year": 2018,
-      "email": "catalinadara@student.uns.ac.id"
-    },
-    {
-      "name": "Putri Febri Pranata",
-      "nim": "H0719150",
-      "departemen": "Agroteknologi",
+      "name": "Risa Rahmania",
+      "nim": "H0919086",
+      "departemen": "Ilmu Teknologi Pangan",
       "year": 2019,
-      "email": "putrifebripranata@student.uns.ac id"
+      "email": "risarahmania@student.uns.ac.id"
     },
     {
-      "name": "NADIYA NUR AINI",
-      "nim": "H0718113",
-      "departemen": "Agroteknologi",
-      "year": 2018,
-      "email": "nadiyanuraini@student.uns.ac.id"
-    },
-    {
-      "name": "Bianka Tresta Nurlitha",
-      "nim": "H0720033",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "biankanurlitha@student.uns.ac.id"
-    },
-    {
-      "name": "Salma Nabila Huwaida",
-      "nim": "H0719165",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "salmanhwd@student.uns.ac.id"
-    },
-    {
-      "name": "Peni Agustini",
-      "nim": "H0719148",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "peniagustini@gmail.com"
-    },
-    {
-      "name": "Giftiyatul Fitriah",
-      "nim": "H0719081",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "giftiyatul.fitriah19@student.uns.ac.id"
-    },
-    {
-      "name": "Elvira Frizalino Salam",
-      "nim": "H0719061",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "elvirafrizalino@student.uns.ac.id"
-    },
-    {
-      "name": "Khansa' Rana Afifah",
-      "nim": "H0719103",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "khansaranaa@student.uns.ac.id"
-    },
-    {
-      "name": "Angelo Di Lorenzo",
-      "nim": "H0719011",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "angelodlorenzo@student.uns.ac.id"
-    },
-    {
-      "name": "Erna Parmelina",
-      "nim": "H0720059",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "eparmelina@student.uns.ac.id"
-    },
-    {
-      "name": "Nur Alim",
-      "nim": "H0719140",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "nuralim145_barru@student.uns"
-    },
-    {
-      "name": "CAHYO DWI PRIYAMBODO",
-      "nim": "H0719040",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "Cahyodwi@student.uns.ac.id"
-    },
-    {
-      "name": "Firda noor komala",
-      "nim": "H0718066",
-      "departemen": "Agroteknologi",
-      "year": 2018,
-      "email": "firdanorkumala14@student.uns.ac.id"
-    },
-    {
-      "name": "Asma Nur Zakiyah",
-      "nim": "H0719023",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "asmazakiyah@student.uns.ac.id"
-    },
-    {
-      "name": "Lisannawati Dian Nirbayati",
-      "nim": "H0719111",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "lisannawatidian83@student.uns.ac.id"
-    },
-    {
-      "name": "Nafi'a Nurul Firdaus",
-      "nim": "H0718114",
-      "departemen": "Agroteknologi",
-      "year": 2018,
-      "email": "nafianurul.09@student.uns.ac.id"
-    },
-    {
-      "name": "Zaenab zakiyyatun Qalbi",
-      "nim": "H0719192",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "zaenab0709@student.uns.ac.id"
-    },
-    {
-      "name": "Qonita Rahma",
-      "nim": "H0718130",
-      "departemen": "Agroteknologi",
-      "year": 2018,
-      "email": "qonitarahma12@student.uns.ac.id"
-    },
-    {
-      "name": "Ivan Goldwin",
-      "nim": "H0720095",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "ivangoldwin@student.uns.ac.id"
-    },
-    {
-      "name": "Adinda Vietrannissa",
-      "nim": "H0718003",
-      "departemen": "Agroteknologi",
-      "year": 2018,
-      "email": "Adindavietra@student.uns.ac.id"
-    },
-    {
-      "name": "Dian Nugi Paramita",
-      "nim": "H0717037",
-      "departemen": "Agroteknologi",
+      "name": "Nurul Fadhilah",
+      "nim": "H0917062",
+      "departemen": "Ilmu Teknologi Pangan",
       "year": 2017,
-      "email": "diannugip@student.uns.ac.id"
+      "email": "fadhilahnurul14@student.uns.ac.id"
     },
     {
-      "name": "Rosdiana Ayuningtyas",
-      "nim": "H0719163",
-      "departemen": "Agroteknologi",
+      "name": "Cholila Qurrotaa'yun",
+      "nim": "H0919028",
+      "departemen": "Ilmu Teknologi Pangan",
       "year": 2019,
-      "email": "ros_diana1008@student.uns.ac.id"
+      "email": "qcholila@gmail.com"
     },
     {
-      "name": "Addienna Afifah",
-      "nim": "H0718001",
-      "departemen": "Agroteknologi",
-      "year": 2018,
-      "email": "addiennafifah25@student.uns.ac.id"
-    },
-    {
-      "name": "Gabriela Deananda Meysanti",
-      "nim": "H0720070",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "nandadea01@student.uns.ac.id"
-    },
-    {
-      "name": "Aulia salsa defani",
-      "nim": "H0718034",
-      "departemen": "Agroteknologi",
-      "year": 2018,
-      "email": "auliasalsa2000@student.uns.ac.id"
-    },
-    {
-      "name": "Iskandar",
-      "nim": "H0719094",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "kandarcuy@student.uns.ac.id"
-    },
-    {
-      "name": "Refitri Yanuar Milenia",
-      "nim": "H0719154",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "ryanuarmilenia@student.uns.ac.id"
-    },
-    {
-      "name": "Panji Tresna Janatha",
-      "nim": "H0719147",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "panjitresnajanatha@student.uns.ac.id"
-    },
-    {
-      "name": "Annisa Luthfia Rahma",
-      "nim": "H0719014",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "annisa_luthfia76@student.uns.ac.id"
-    },
-    {
-      "name": "Dinayati",
-      "nim": "H0719052",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "dinayati872@student.uns.ac.id"
-    },
-    {
-      "name": "Adhitama Andrian Pramana",
-      "nim": "H0719001",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "adhitamaand@student.uns.ac.id"
-    },
-    {
-      "name": "Novita Romadhani",
-      "nim": "H0719139",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "novitaromadhani2116@student.uns.ac.id"
-    },
-    {
-      "name": "Fajar n",
-      "nim": "H0716049",
-      "departemen": "Agroteknologi",
-      "year": 2016,
-      "email": "bramastafjr@student.uns.ac.id"
-    },
-    {
-      "name": "tagam",
-      "nim": "H0718149",
-      "departemen": "Agroteknologi",
-      "year": 2018,
-      "email": "tagam@student.uns.ac.id"
-    },
-    {
-      "name": "Novita Nur Rahmadhani",
-      "nim": "H0719138",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "novitanurrahmadhani17@student.uns.ac.id"
-    },
-    {
-      "name": "M Aziz Nurdiyanto",
-      "nim": "H0718101",
-      "departemen": "Agroteknologi",
-      "year": 2018,
-      "email": "maziznurdiyanto@student.uns.ac.id"
-    },
-    {
-      "name": "Lelya Gussyanti",
-      "nim": "H0718088",
-      "departemen": "Agroteknologi",
-      "year": 2018,
-      "email": "lelyagussyanti@student.uns.ac.id"
-    },
-    {
-      "name": "Alfika Rizka Hapsari",
-      "nim": "H0719007",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "Alfikarizkahapsari@gmail.com"
-    },
-    {
-      "name": "FRANCISCA SYAHRANI ADE NUGROHO",
-      "nim": "H0719078",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "syahranifrancisca@student.uns.ac.id"
-    },
-    {
-      "name": "Elisa Dewanti",
-      "nim": "H0719057",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "elisadewanti@student.uns.ac.id"
-    },
-    {
-      "name": "Elisabeth Kireina Vianney",
-      "nim": "H0719058",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "kireinavianney@student.uns.ac.id"
-    },
-    {
-      "name": "Bayutama Rahmawan",
-      "nim": "H0719034",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "bayutamar@student.uns.ac.id"
-    },
-    {
-      "name": "Rio Aditya Pratama",
-      "nim": "H0720144",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "rioa829@student.uns.ac.id"
-    },
-    {
-      "name": "Franciska Linda",
-      "nim": "H0719079",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "franciskalinda2508@student.uns.ac.id"
-    },
-    {
-      "name": "Nurul Hanifah Ranastuti",
-      "nim": "H0720129",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "nurulhanifahr16@student.uns.ac.id"
-    },
-    {
-      "name": "Nadia Azzahro",
-      "nim": "H0720122",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "nadiaazzahro@student.uns.ac.id"
-    },
-    {
-      "name": "Dhanuaji Alghifari Harnowo",
-      "nim": "H0720050",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "dhanuaji2002@student.uns.ac.id"
-    },
-    {
-      "name": "Muhammad Ihsan",
-      "nim": "H0720116",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "sansroland@student.uns.ac.id"
-    },
-    {
-      "name": "Annisa Nur Rahmawati",
-      "nim": "H0720018",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "annisanr@student.uns.ac.id"
-    },
-    {
-      "name": "Helvany Arli Adisti",
-      "nim": "H0720081",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "elvaniarlianti12@student.uns.ac.id"
-    },
-    {
-      "name": "Gandis Pramudya Wardani",
-      "nim": "H0720074",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "gandisp28@student.uns.ac.id"
-    },
-    {
-      "name": "Resa Angga Dwi Saputra",
-      "nim": "H0720142",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "resaangga29@student.uns.ac.id"
-    },
-    {
-      "name": "Rafidah Agnesa Candra Kirana",
-      "nim": "H0720136",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "rafidahack@student.uns.ac.id"
-    },
-    {
-      "name": "Maria Lintang Chrismas Ayu",
-      "nim": "H0719115",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "marialintang@student.uns.ac.id"
-    },
-    {
-      "name": "Miftahul Jannah",
-      "nim": "H0720104",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "jannahmiftahul2109@student.uns.ac.id"
-    },
-    {
-      "name": "Hesti Triyana",
-      "nim": "H0720083",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "hestitriyana@student.uns.ac.id"
-    },
-    {
-      "name": "Grefta Jessika Sanni",
-      "nim": "H0720077",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "greftaajsn@student.uns.ac.id"
-    },
-    {
-      "name": "Rafif Fairuz Qalbi",
-      "nim": "H0720137",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "fairuzqalbi@student.uns.ac.id"
-    },
-    {
-      "name": "Annisa Nur Fadhillah",
-      "nim": "H0720017",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "anisfdh123@student.uns.ac.id"
-    },
-    {
-      "name": "Nabila Dwita Putri",
-      "nim": "H0720121",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "Ndwitaputri@student.uns.ac.id"
-    },
-    {
-      "name": "Kekeh Fadhilah",
-      "nim": "H0720096",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "kekehfadhilah50@student.uns.ac.id"
-    },
-    {
-      "name": "Rahmat Rizqi",
-      "nim": "H0720138",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "rahmatrizqi27@stusent.uns.ac.id"
-    },
-    {
-      "name": "Zahid Jalaluddin Haqani",
-      "nim": "H0720175",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "zahidhaqani@student.uns.ac.id"
-    },
-    {
-      "name": "Fiska Elvina Oktin",
-      "nim": "H0720068",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "fiskana02@student.uns.ac"
-    },
-    {
-      "name": "Novia Rahma Azzahra",
-      "nim": "H0719136",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "noviazzahra.24@student.uns.ac.id"
-    },
-    {
-      "name": "ADE WIDYA PUTRI",
-      "nim": "H0720002",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "adewidya0102@student.uns.ac.id"
-    },
-    {
-      "name": "Muhammad Zafran Maqarim",
-      "nim": "H0720118",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "zafranaffifi119@student.uns.ac.id"
-    },
-    {
-      "name": "Nanda Saskya",
-      "nim": "H0719132",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "nandasaskya@student.uns.ac.id"
-    },
-    {
-      "name": "Ayu Lestari",
-      "nim": "H0718035",
-      "departemen": "Agroteknologi",
-      "year": 2018,
-      "email": "ayu_lestari017@student.uns.ac.id"
-    },
-    {
-      "name": "Safira Nadhifatul Ardhina",
-      "nim": "H0717128",
-      "departemen": "Agroteknologi",
+      "name": "Melati Sumbawati",
+      "nim": "H0917090",
+      "departemen": "Ilmu Teknologi Pangan",
       "year": 2017,
-      "email": "Safiraardhin@student.uns.ac.id"
+      "email": "melatisumbawati.01@student.uns.ac.id"
     },
     {
-      "name": "Dewi Ayu Panuntun",
-      "nim": "H0719048",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "suksesterus@student.uns.ac.id"
+      "name": "Feby Meliana",
+      "nim": "H0920034",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "melianafeby88@student.uns.ac.id"
     },
     {
-      "name": "Rahayu Utaminingsih",
-      "nim": "H0718132",
-      "departemen": "Agroteknologi",
+      "name": "Lulu Hidayatul Khasanah",
+      "nim": "H0918052",
+      "departemen": "Ilmu Teknologi Pangan",
       "year": 2018,
-      "email": "rahayuutaminingsih1@gmail.com"
+      "email": "luluhidayatulk15@student.uns.ac.id"
     },
     {
-      "name": "Siti Salsabila",
-      "nim": "H0719172",
-      "departemen": "Agroteknologi",
+      "name": "Alifah Rifdah Rosyidah",
+      "nim": "H0919003",
+      "departemen": "Ilmu Teknologi Pangan",
       "year": 2019,
-      "email": "sitisalsabila@student.uns.ac.id"
+      "email": "alifahrifdah@student.uns.ac.id"
     },
     {
-      "name": "NOR ISNAENI DWI ARISTA",
-      "nim": "H0717102",
-      "departemen": "Agroteknologi",
+      "name": "Fahimatunisa",
+      "nim": "H0919042",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2019,
+      "email": "fahima1112@student.uns.ac.id"
+    },
+    {
+      "name": "Riska Ayu Kusnaedi",
+      "nim": "H0919087",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2019,
+      "email": "Riskaayukusnaedi@student.uns.ac.id"
+    },
+    {
+      "name": "Eleazar Calvin Paimaon Ritonga",
+      "nim": "H0919041",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2019,
+      "email": "calvinritonga@student.uns.ac.id"
+    },
+    {
+      "name": "Zunita Isnaini",
+      "nim": "H0920100",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "zunitaisnaini@student.uns.ac.id"
+    },
+    {
+      "name": "Rini Nurkholifah",
+      "nim": "H0917071",
+      "departemen": "Ilmu Teknologi Pangan",
       "year": 2017,
-      "email": "dewi.arista99@student.uns.ac.id"
+      "email": "rininurkholifah12@student.uns.ac.id"
     },
     {
-      "name": "Afifah Wahyuning Ramadhany",
-      "nim": "H0718005",
-      "departemen": "Agroteknologi",
+      "name": "Ratna Ayu Kusumah",
+      "nim": "H0919081",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2019,
+      "email": "Ratnaayukusuma@student.uns.ac.id"
+    },
+    {
+      "name": "Arina Nur'aini",
+      "nim": "H0920013",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "arinanuraini@student.uns.ac.id"
+    },
+    {
+      "name": "Naula Fitria Bilqis",
+      "nim": "H0920067",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "fafafitria121@student.uns.ac.id"
+    },
+    {
+      "name": "Naula Safitri Bilqis",
+      "nim": "H0920068",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "naulasafitribilqis@student.uns.ac.id"
+    },
+    {
+      "name": "Siska Nur Islami",
+      "nim": "H0920087",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "siskanr0802@student.uns.ac.id"
+    },
+    {
+      "name": "Maharani Anugrahani",
+      "nim": "H0920055",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "maharanianugrahani@student.uns.ac.id"
+    },
+    {
+      "name": "Auliya Syifa'ur Rahmah",
+      "nim": "H0918015",
+      "departemen": "Ilmu Teknologi Pangan",
       "year": 2018,
-      "email": "afifahwr22@student.uns.ac.id"
+      "email": "auliyasyifa@student.uns.ac.id"
     },
     {
-      "name": "Pratekwo Kurnia Aji",
-      "nim": "H0718127",
-      "departemen": "Agroteknologi",
+      "name": "Aulia Rahma Karunia",
+      "nim": "H0918014",
+      "departemen": "Ilmu Teknologi Pangan",
       "year": 2018,
-      "email": "pratekwo@student.uns.ac.id"
+      "email": "karuniaauliarahma@student.uns.ac.id"
     },
     {
-      "name": "Ajeng Yunita Puja Sari",
-      "nim": "H0718010",
-      "departemen": "Agroteknologi",
+      "name": "Anisya Zoelnanda",
+      "nim": "H0917019",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2017,
+      "email": "azoelnanda@student.uns.ac.id"
+    },
+    {
+      "name": "Nabilatus Sa'diyah",
+      "nim": "H0919069",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2019,
+      "email": "nabilatussadiyah@student.uns.ac.id"
+    },
+    {
+      "name": "Anita Nurul Apriliana",
+      "nim": "H0919013",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2019,
+      "email": "anitanurula@student.uns.ac.id"
+    },
+    {
+      "name": "Alfina Ivo Fitriyanaisya",
+      "nim": "H0920006",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "alfinaivf@student.uns.ac.id"
+    },
+    {
+      "name": "Annida Faiha",
+      "nim": "H0920009",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "annida.faiha22@student.uns.ac.id"
+    },
+    {
+      "name": "Flora Yudhiasti Pramestika",
+      "nim": "H0920038",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "floraypramestika@student.uns.ac.id"
+    },
+    {
+      "name": "Adara Sagita Rosanti Primananda",
+      "nim": "H0920002",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "adarasagita@student.uns.ac.id"
+    },
+    {
+      "name": "azizah zahroh ihsaniah",
+      "nim": "H0919024",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2019,
+      "email": "azizahzahroh123@student.uns.ac.id"
+    },
+    {
+      "name": "Dian Mahesti Pratiwi",
+      "nim": "H0920030",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "dianmahesti@student.uns.ac.id"
+    },
+    {
+      "name": "Besti Baramita",
+      "nim": "H0920022",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "bestibaramita@student.uns.ac.id"
+    },
+    {
+      "name": "Tri Wening Perwita Sari",
+      "nim": "H0920094",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "triweningperwitasari@student.uns.ac.id"
+    },
+    {
+      "name": "Addina Firdaus Latief",
+      "nim": "H0920003",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "addinafila@student.uns.ac.id"
+    },
+    {
+      "name": "Muhammad Arfa A",
+      "nim": "H0920059",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "muhammadarfa@student.uns.ac.id"
+    },
+    {
+      "name": "Lyra Angelica",
+      "nim": "H0920054",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "lyraanglc@student.uns.ac.id"
+    },
+    {
+      "name": "Farandi Angesti Wahyu",
+      "nim": "H0920033",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "farandi.2002wahyu@student.uns.ac.id"
+    },
+    {
+      "name": "Intani Febriana Imroatus Solehah",
+      "nim": "H0920047",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "intanifbrna@student.uns.ac.id"
+    },
+    {
+      "name": "Aulia Hana Zahiyya",
+      "nim": "H0920017",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "hannaahnzhy@student.uns.ac.id"
+    },
+    {
+      "name": "Ghassani Fathin Adani",
+      "nim": "H0920042",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "ghassanifathin19@student.uns.ac.id"
+    },
+    {
+      "name": "Adam Yusuf Saputra",
+      "nim": "H0920001",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "adamyusufsaputra@student.uns.ac.id"
+    },
+    {
+      "name": "Laela Nur Ramadhani",
+      "nim": "H0920052",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "Laellaramadhanii@srudent.uns.ac.id"
+    },
+    {
+      "name": "Talitha Yumna Fausta",
+      "nim": "H0920088",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "talithayf@student.uns.ac.id"
+    },
+    {
+      "name": "Indah Kurniasih",
+      "nim": "H0920046",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "indahkurn@student.uns.ac.id"
+    },
+    {
+      "name": "Tiara Safitri",
+      "nim": "H0920092",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "tiarasafitri@student.uns.ac.id"
+    },
+    {
+      "name": "Argilya Rizky Wuryaningrum",
+      "nim": "H0920012",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "argilyarizky@student.uns.ac.id"
+    },
+    {
+      "name": "Prabu Muchammad Abdan Shaalih",
+      "nim": "H0920074",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "prabu.muchammad@student.uns.ac.id"
+    },
+    {
+      "name": "Anindya Ayu Salsabila",
+      "nim": "H0920008",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "anindyaayus@student.uns.ac.id"
+    },
+    {
+      "name": "Rachel Agatha Novena Kusumaningtyas",
+      "nim": "H0920078",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "rachelagatha@student.uns.ac.id"
+    },
+    {
+      "name": "Zainina Zati Hulwani",
+      "nim": "H0920098",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "zaininazth@student.uns.ac.id"
+    },
+    {
+      "name": "Brigita Septiana",
+      "nim": "H0920024",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "brigita.sptn@student.uns.ac.id"
+    },
+    {
+      "name": "Regan Zharfani Wibowo",
+      "nim": "H0920080",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "reganzharfani@student.uns.ac.id"
+    },
+    {
+      "name": "Dean Aryani",
+      "nim": "H0920028",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "deanaryani@student.uns.ac.id"
+    },
+    {
+      "name": "Anindita Nagamustika Mahayati",
+      "nim": "H0919010",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2019,
+      "email": "aninditanm@student.uns.ac.id"
+    },
+    {
+      "name": "Naila Kayadha",
+      "nim": "H0920065",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "nailakayadha@student.uns.ac.id"
+    },
+    {
+      "name": "Aditya Bayhaqi Suraji",
+      "nim": "H0919001",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2019,
+      "email": "adityabayhaqi@student.uns.ac.id"
+    },
+    {
+      "name": "Nadiah",
+      "nim": "H0920063",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "nau_nau@student.uns.ac.id"
+    },
+    {
+      "name": "Nadia Indi Azama",
+      "nim": "H0920062",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "nadiaindi@student.uns.ac.id"
+    },
+    {
+      "name": "Iftitaha Fadhila",
+      "nim": "H0918045",
+      "departemen": "Ilmu Teknologi Pangan",
       "year": 2018,
-      "email": "ajengyps@student.uns.ac.id"
+      "email": "iftitaha.fadhila@student.uns.ac.id"
     },
     {
-      "name": "Dhea Clarista Tri Wulansuci",
-      "nim": "H0718050",
-      "departemen": "Agroteknologi",
+      "name": "Fatma Juliana Kartikasari",
+      "nim": "H0918032",
+      "departemen": "Ilmu Teknologi Pangan",
       "year": 2018,
-      "email": "dheaclarista30@student.uns.ac.id"
+      "email": "Fatmajuliana@student.uns.ac.id"
     },
     {
-      "name": "Satya Primasasta Zulhivan",
-      "nim": "H0717132",
-      "departemen": "Agroteknologi",
-      "year": 2017,
-      "email": "satyaprimasasta@student.uns.ac.id"
-    },
-    {
-      "name": "Haidar Miftahul Falah",
-      "nim": "H0720078",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "kaitohaidar@student.uns.ac.id"
-    },
-    {
-      "name": "Umniyati Zulfa Salsabila",
-      "nim": "H0720168",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "umniyatizulfa19@student.uns.ac.id"
-    },
-    {
-      "name": "Kholid Rifai",
-      "nim": "H0720097",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "rifaikholid@student.uns.ac.id"
-    },
-    {
-      "name": "Elvina Emalia",
-      "nim": "H0720057",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "elvina2468_emalia@student.uns.ac.id"
-    },
-    {
-      "name": "prakosa",
-      "nim": "H0718126",
-      "departemen": "Agroteknologi",
+      "name": "Hasna Rosyida",
+      "nim": "H0918043",
+      "departemen": "Ilmu Teknologi Pangan",
       "year": 2018,
-      "email": "prakosa.dj@student.uns.ac.id"
+      "email": "hasna_r12@student.uns.ac.id"
     },
     {
-      "name": "Nia gusniar",
-      "nim": "H0719135",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "gusniarnia08@student.uns.ac.id"
-    },
-    {
-      "name": "Fadila Kharisma",
-      "nim": "H0720060",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "fadilakharisma21@student.uns.ac.id"
-    },
-    {
-      "name": "Aprilia Setia Agustin",
-      "nim": "H0719018",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "apriliasetia12@student.uns.ac.id"
-    },
-    {
-      "name": "Bramesty Laras Hanif",
-      "nim": "H0719038",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "bramestylaras1006@student.uns.ac.id"
-    },
-    {
-      "name": "Annisa Nur Hazizah",
-      "nim": "H0719016",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "Annisanur799@student.uns.ac.id"
-    },
-    {
-      "name": "Arda Octavarika Nurrahmah",
-      "nim": "H0719019",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "ardaoctavarika29@student.uns.ac.id"
-    },
-    {
-      "name": "Yunita Ratna Fauziah",
-      "nim": "H0719189",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "yunitaratnaf@student.uns.ac.id"
-    },
-    {
-      "name": "Dito Fandi Prasetyo",
-      "nim": "H0720053",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "ditofandi@student.uns.ac.id"
-    },
-    {
-      "name": "Retno Ermawati",
-      "nim": "H0719156",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "retnowati8687@student.uns.ac.id"
-    },
-    {
-      "name": "M.FARIZ FAKRURRAHMAN",
-      "nim": "H0720100",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "faarizh@student.uns.ac.id"
-    },
-    {
-      "name": "Hibatulloh azizi",
-      "nim": "H0720084",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "Hibatullahazizi_54@student.uns.ac.id"
-    },
-    {
-      "name": "Dhiasty Ekananda Anindyaswari",
-      "nim": "H0717035",
-      "departemen": "Agroteknologi",
-      "year": 2017,
-      "email": "dhiasty@student.uns.ac.id"
-    },
-    {
-      "name": "Fathoniyah Purnama Sari",
-      "nim": "H0717055",
-      "departemen": "Agroteknologi",
-      "year": 2017,
-      "email": "nanaspf@student.uns.ac.id"
-    },
-    {
-      "name": "Rizal Wirawan",
-      "nim": "H0719160",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "zale@student.uns.ac.id"
-    },
-    {
-      "name": "Bravilio Fitra Anggara",
-      "nim": "H0717024",
-      "departemen": "Agroteknologi",
-      "year": 2017,
-      "email": "anggarafitra@student.uns.ac.id"
-    },
-    {
-      "name": "Daffa Maulana Muhammad",
-      "nim": "H0717028",
-      "departemen": "Agroteknologi",
-      "year": 2017,
-      "email": "fammaoel@student.uns.ac.id"
-    },
-    {
-      "name": "atria herviana",
-      "nim": "H0718033",
-      "departemen": "Agroteknologi",
+      "name": "Munna Aisyah",
+      "nim": "H0918061",
+      "departemen": "Ilmu Teknologi Pangan",
       "year": 2018,
-      "email": "atriaherviana@student.uns.ac.id"
+      "email": "munnaaishaa@student.uns.ac.id"
     },
     {
-      "name": "Galuh Fadwa Ammi Putri",
-      "nim": "H0717059",
-      "departemen": "Agroteknologi",
-      "year": 2017,
-      "email": "galuhfadwa@student.uns.ac.id"
-    },
-    {
-      "name": "Christian Ardianto Wibowo",
-      "nim": "H0719044",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "christianawibowo10@student.uns.ac.id"
-    },
-    {
-      "name": "Aisyah Taqiyyah Fa'izah",
-      "nim": "H0719004",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "aisyah.taqiyyahf18@student.uns.ac.id"
-    },
-    {
-      "name": "Erika Ananda Pradita Putri",
-      "nim": "H0719062",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "rkaa_1@student.uns.ac.id"
-    },
-    {
-      "name": "Yudhi Ardhani",
-      "nim": "H0719188",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "yudhiar21@student.uns.ac.id"
-    },
-    {
-      "name": "Ririn Haniffatussolikhah",
-      "nim": "H0717116",
-      "departemen": "Agroteknologi",
-      "year": 2017,
-      "email": "rinhaniffa@student.uns.ac.id"
-    },
-    {
-      "name": "Litasya Khoirotun Hisaan",
-      "nim": "H0719112",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "litasyakh25@student.uns.ac.id"
-    },
-    {
-      "name": "Muhammad Hazza Wildan Farabi",
-      "nim": "H0717090",
-      "departemen": "Agroteknologi",
-      "year": 2017,
-      "email": "muhammadhazza@student.uns.ac.id"
-    },
-    {
-      "name": "Ekayanti Tyas Utami",
-      "nim": "H0717045",
-      "departemen": "Agroteknologi",
-      "year": 2017,
-      "email": "eka17utami@student.uns.ac.id"
-    },
-    {
-      "name": "Canakya",
-      "nim": "H0717026",
-      "departemen": "Agroteknologi",
-      "year": 2017,
-      "email": "canakyacoco@student.uns.ac.id"
-    },
-    {
-      "name": "M Tegar Anadyasa S",
-      "nim": "H0717094",
-      "departemen": "Agroteknologi",
-      "year": 2017,
-      "email": "Mtegar92@student.uns.ac.id"
-    },
-    {
-      "name": "Ardan Imam Perkasa",
-      "nim": "H0719020",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "ardan_imam@student.uns.ac.id"
-    },
-    {
-      "name": "Dea Puspita",
-      "nim": "H0720045",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "deapuspita@student.uns.ac.id"
-    },
-    {
-      "name": "Aulia Hanna Albarri",
-      "nim": "H0720027",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "hannaalbarri.24@student.uns.ac.id"
-    },
-    {
-      "name": "Rizki Nur Miati",
-      "nim": "H0720148",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "rizkinurmiati211201@student.uns.ac.id"
-    },
-    {
-      "name": "Dita Apriliani Pratiwi",
-      "nim": "H0720052",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "ditaaprilianipratiwi@student.uns.ac.id"
-    },
-    {
-      "name": "Rissa Kurnia Anggraini",
-      "nim": "H0720145",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "rissakurniaanggraini@student.uns.ac.id"
-    },
-    {
-      "name": "Birgita Tessa Crossyta",
-      "nim": "H0720036",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "btcrossyta@student.uns.ac.id"
-    },
-    {
-      "name": "Roro Fajriyati",
-      "nim": "H0717124",
-      "departemen": "Agroteknologi",
-      "year": 2017,
-      "email": "rorofajriyati@student.uns.ac.id"
-    },
-    {
-      "name": "Ayu Dilla Anggreani",
-      "nim": "H0720030",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "ayudillaa@student.uns.ac.id"
-    },
-    {
-      "name": "Ichsan Nugrhadi Sukamto",
-      "nim": "H0720087",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "ichsansn02@student.uns.ac.id"
-    },
-    {
-      "name": "Pradita Eka Septiana",
-      "nim": "H0720135",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "praditaekaseptiana@student.uns.ac.id"
-    },
-    {
-      "name": "Iistikharoh",
-      "nim": "H017065",
-      "departemen": "Agroteknologi",
-      "year": 2017,
-      "email": "caca_1272007@student.uns.ac.id"
-    },
-    {
-      "name": "Inayah Sekar Baiti",
-      "nim": "H0720089",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "inayahsekar@student.uns.ac.id"
-    },
-    {
-      "name": "Firyal Labibah Hambali",
-      "nim": "H0719076",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "firyallhambali@student.uns.ac.id"
-    },
-    {
-      "name": "Rohmah Saptowati",
-      "nim": "H0720151",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "rohmahspt@student.uns.ac.id"
-    },
-    {
-      "name": "Aminudin",
-      "nim": "H0720013",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "Aminudin_31@student.uns.ac.id"
-    },
-    {
-      "name": "Daniel Krisna Murti",
-      "nim": "H0720042",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "danielmurty3@student.uns.ac.id"
-    },
-    {
-      "name": "Chatarina Dian Pertiwi Bere",
-      "nim": "H0720039",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "chatarinadian@student.uns.ac.id"
-    },
-    {
-      "name": "Sabrina Fauziah",
-      "nim": "H0720156",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "sabrinafauziah25@student.uns.ac.id"
-    },
-    {
-      "name": "Musa Irawan",
-      "nim": "H0720120",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "musa17@student.uns.ac.id"
-    },
-    {
-      "name": "Fedoryan Akmal Taufiqurahman",
-      "nim": "H0720066",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "fedoryan93@student.uns.ac.id"
-    },
-    {
-      "name": "Naufal Ghazy Wicaksono",
-      "nim": "H0717098",
-      "departemen": "Agroteknologi",
-      "year": 2017,
-      "email": "naufalghazy@student.uns.ac.id"
-    },
-    {
-      "name": "David Kuntoro Salim",
-      "nim": "H0720044",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "davidkuntorosalim12@student.uns.ac.id"
-    },
-    {
-      "name": "Adiba Safira Rizqi",
-      "nim": "H0720003",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "adibasafira@student.uns.ac.id"
-    },
-    {
-      "name": "Desy Amalia Amanaf",
-      "nim": "H0717032",
-      "departemen": "Agroteknologi",
-      "year": 2017,
-      "email": "desy.amalia05@student.uns.ac.id"
-    },
-    {
-      "name": "Fadhillah Brimantara",
-      "nim": "H0719065",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "iamfadhillah@student.uns.ac.id"
-    },
-    {
-      "name": "Vania Widya Eka Kristiani",
-      "nim": "H0720170",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "vaniawidya17@student.uns.ac"
-    },
-    {
-      "name": "Titis Suparwati Setiyaningsih",
-      "nim": "H0718154",
-      "departemen": "Agroteknologi",
+      "name": "Hasna Azhari",
+      "nim": "H0918042",
+      "departemen": "Ilmu Teknologi Pangan",
       "year": 2018,
-      "email": "titissuparwati@student.uns.ac.id"
+      "email": "hasnazhari12@student.uns.ac.id"
     },
     {
-      "name": "Indriawati Anggraini",
-      "nim": "H0720093",
-      "departemen": "Agroteknologi",
+      "name": "Yasmin Ghina Salsabila Arsyad",
+      "nim": "H0918091",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2018,
+      "email": "yasmin.ghina@student.uns.ac.id"
+    },
+    {
+      "name": "Nisrina Akhrim M",
+      "nim": "H0918066",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2018,
+      "email": "akhrimnisrina@student.uns.ac.id"
+    },
+    {
+      "name": "Pandu Pramana Atmaja",
+      "nim": "H0918070",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2018,
+      "email": "apandoop@student.uns.ac.id"
+    },
+    {
+      "name": "Layyalin Mumtazah",
+      "nim": "H0918049",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2018,
+      "email": "layyalinzh@student.uns.ac.id"
+    },
+    {
+      "name": "Nena herawati",
+      "nim": "H0918065",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2018,
+      "email": "nenaaherawati@student.uns.ac.id"
+    },
+    {
+      "name": "Emanuella Sattvika D",
+      "nim": "H0918028",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2018,
+      "email": "vikaemanuella@student.uns.ac.id"
+    },
+    {
+      "name": "Hanun Oktaviana Chairunisa",
+      "nim": "H0918040",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2018,
+      "email": "hanun.ocha@student.uns.ac.id"
+    },
+    {
+      "name": "Nida Nur Mufidah",
+      "nim": "H0920070",
+      "departemen": "Ilmu Teknologi Pangan",
       "year": 2020,
-      "email": "anggrainiindriiawati@student.uns.ac.id"
+      "email": "nidanurmufidah@student.uns.ac.id"
     },
     {
-      "name": "Chesya Grace Andira",
-      "nim": "H0719043",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "chesyacga@student.uns.ac.id"
+      "name": "Aliza Kholifah",
+      "nim": "H0918008",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2018,
+      "email": "aliza.kholifah@student.uns.ac.id"
     },
     {
-      "name": "Latiffah Indriana Septin",
-      "nim": "H0719107",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "latiffahindrianas@gmail.com"
-    },
-    {
-      "name": "Farathia Jasmine",
-      "nim": "H0719067",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "farathiaj@student.uns.ac.id"
-    },
-    {
-      "name": "Salsa nur fitriani",
-      "nim": "H0720158",
-      "departemen": "Agroteknologi",
+      "name": "Najwa Cita Adhi",
+      "nim": "H0920066",
+      "departemen": "Ilmu Teknologi Pangan",
       "year": 2020,
-      "email": "salsafitriani@student.ins.ac.id"
+      "email": "najwacita02@student.uns.ac.id"
     },
     {
-      "name": "Calista Dottie Indriashari",
-      "nim": "H0720038",
-      "departemen": "Agroteknologi",
+      "name": "Diva Elenna Jiesthasasriya",
+      "nim": "H0920031",
+      "departemen": "Ilmu Teknologi Pangan",
       "year": 2020,
-      "email": "calista.dottie@student.uns.ac.id"
+      "email": "divaelenna@student.uns.ac.id"
     },
     {
-      "name": "Novilia Romadhona",
-      "nim": "H0719137",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "noviliaromadhona.23@student.uns.ac.id"
-    },
-    {
-      "name": "Nurin Adyanisa Fajrin",
-      "nim": "H0719143",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "nurin_adyanisa2001@student.uns.ac.id"
-    },
-    {
-      "name": "Ridwan Budi Saputra",
-      "nim": "H0719157",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "rdwnridi@student.uns.ac.id"
-    },
-    {
-      "name": "Asyifa Nur Fatimah Setiyadi",
-      "nim": "H0720025",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "asyifanurfs@student.uns.ac.id"
-    },
-    {
-      "name": "Siti Nur Aisyah",
-      "nim": "H0720163",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "snaisyah138@student.uns.ac.id"
-    },
-    {
-      "name": "Novi Safitri",
-      "nim": "H0720128",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "novisafitri@student.uns.ac.id"
-    },
-    {
-      "name": "Briliana Amelia Silvi",
-      "nim": "H0720037",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "basilvi@student.uns.ac.id"
-    },
-    {
-      "name": "Vania Ananda",
-      "nim": "H0717143",
-      "departemen": "Agroteknologi",
+      "name": "Izkar lazuardi zamani",
+      "nim": "H0917047",
+      "departemen": "Ilmu Teknologi Pangan",
       "year": 2017,
-      "email": "Vaniaananda0307@student.uns.ac.id"
+      "email": "izkarlazuardi@student.uns.ac.id"
     },
     {
-      "name": "Aziz Kusuma Wardana",
-      "nim": "H0719032",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "azizkw13@student.uns.ac.id"
-    },
-    {
-      "name": "Indri Yana Yuniati",
-      "nim": "H0720092",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "indriyana@student.uns.ac.id"
-    },
-    {
-      "name": "Puput Maryani",
-      "nim": "H0718129",
-      "departemen": "Agroteknologi",
-      "year": 2018,
-      "email": "maryannipuput@student.uns.ac.id"
-    },
-    {
-      "name": "Galih Adithya Aziz",
-      "nim": "H0720071",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "galihadithyaa@student.uns.ac.id"
-    },
-    {
-      "name": "Anastasia Nuri Figlia Carina",
-      "nim": "H0720016",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "carinafiglia@student.uns.ac.id"
-    },
-    {
-      "name": "Prasanti Laksita Karimah",
-      "nim": "H0719149",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "prasanti_laksita@student.uns.ac.id"
-    },
-    {
-      "name": "zadia zora mufida",
-      "nim": "H0719191",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "zadiazora@student.uns.ac.id"
-    },
-    {
-      "name": "Nanda Fajar G",
-      "nim": "H0719131",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "nandafajar_19@student.uns.ac.id"
-    },
-    {
-      "name": "Desfinenda Calistarajni",
-      "nim": "H0720046",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "desfinendacalista@student.uns.ac.id"
-    },
-    {
-      "name": "Nur Fitria Agustina",
-      "nim": "H0719141",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "nurfitriaagustina17@student.uns.ac.id"
-    },
-    {
-      "name": "M. Mumtazul Fikri Nurfiansyah",
-      "nim": "H0718091",
-      "departemen": "Agroteknologi",
-      "year": 2018,
-      "email": "mumtazul@student.uns.ac.id"
-    },
-    {
-      "name": "Qothrunnada Salma",
-      "nim": "H0719151",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "salmashofi62@student.uns.ac.id"
-    },
-    {
-      "name": "Muhammad Luthfi Akbar",
-      "nim": "H0719129",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "muhammadluthfi.official@student.uns.ac.id"
-    },
-    {
-      "name": "Srika Rahmawati",
-      "nim": "H0717137",
-      "departemen": "Agroteknologi",
+      "name": "Anastasia Dinda Putri Adhimukti",
+      "nim": "H0917017",
+      "departemen": "Ilmu Teknologi Pangan",
       "year": 2017,
-      "email": "ikasrika6@student.uns.ac.id"
+      "email": "anastasiadinda@student.uns.ac.id"
     },
     {
-      "name": "Dina Mardiyana",
-      "nim": "H0718053",
-      "departemen": "Agroteknologi",
-      "year": 2018,
-      "email": "dinamardiyanaa23@student.uns.ac.id"
-    },
-    {
-      "name": "Okta Viana Faridaturrofiah",
-      "nim": "H0719145",
-      "departemen": "Agroteknologi",
+      "name": "Anisatun Lathifah",
+      "nim": "H0919012",
+      "departemen": "Ilmu Teknologi Pangan",
       "year": 2019,
-      "email": "Oktavianaf@student.uns.ac.id"
+      "email": "anisla69447@student.uns.ac.id"
     },
     {
-      "name": "Alfian Haryudana",
-      "nim": "H0718012",
-      "departemen": "Agroteknologi",
-      "year": 2018,
-      "email": "h2000alfian@student.uns.ac.id"
-    },
-    {
-      "name": "Alifiati saifira salma",
-      "nim": "H0717010",
-      "departemen": "Agroteknologi",
+      "name": "Aditya Chanif Indhra Putra",
+      "nim": "H0917001",
+      "departemen": "Ilmu Teknologi Pangan",
       "year": 2017,
-      "email": "alifiatisaifira@student.uns.ac.id"
+      "email": "prince_indhra@student.uns.ac.id"
     },
     {
-      "name": "Alfida Muthi'ah",
-      "nim": "H0718013",
-      "departemen": "Agroteknologi",
-      "year": 2018,
-      "email": "alfida1@student.uns.ac.id"
+      "name": "Indah Ardityas Siwi",
+      "nim": "H0919051",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2019,
+      "email": "indahardityas@student.uns.ac.id"
     },
     {
-      "name": "Muhammad Naufal Baihaqqi",
-      "nim": "H0717093",
-      "departemen": "Agroteknologi",
+      "name": "Dewi arinanda",
+      "nim": "H0920029",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "dewiarinandaa@student.uns.ac.id"
+    },
+    {
+      "name": "Khairunnisa Tasqia",
+      "nim": "H0917050",
+      "departemen": "Ilmu Teknologi Pangan",
       "year": 2017,
-      "email": "naufal_b@student.uns.ac.id"
+      "email": "nisatasqia86@student.uns.ac.id"
     },
     {
-      "name": "Andika Nugrahaningrum",
-      "nim": "H0719010",
-      "departemen": "Agroteknologi",
+      "name": "Gabriella Callula Putri Kurniawan",
+      "nim": "H0920041",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "gcallulapk@student.uns.ac.id"
+    },
+    {
+      "name": "Jihan Lathifa Hapsari",
+      "nim": "H0920048",
+      "departemen": "Ilmu Teknologi Pangan",
+      "year": 2020,
+      "email": "jihanlathifa@student.uns.ac.id"
+    },
+    {
+      "name": "Nisrina Qurrota 'Aini",
+      "nim": "H0919075",
+      "departemen": "Ilmu Teknologi Pangan",
       "year": 2019,
-      "email": "andikangrm@student.uns.ac.id"
+      "email": "nisrina.qurrota@student.uns.ac.id"
     },
     {
-      "name": "Farhan Syaeful Fatah",
-      "nim": "H0717053",
-      "departemen": "Agroteknologi",
+      "name": "nuril ali dernansyah",
+      "nim": "H0520092",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "nurilali375@student.uns.ac.id"
+    },
+    {
+      "name": "Ammar Ibnu Hasan",
+      "nim": "H0518007",
+      "departemen": "Peternakan",
+      "year": 2018,
+      "email": "ammaribnuhasan@student.uns.ac.id"
+    },
+    {
+      "name": "Raihan Aryasatya",
+      "nim": "H0520097",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "nipon.kapten104@student.uns.ac.id"
+    },
+    {
+      "name": "Satrio Krishna Wibowo",
+      "nim": "H0520106",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "krisnawibowo097@student.uns.ac.id"
+    },
+    {
+      "name": "Nelina",
+      "nim": "H0520089",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "Nelina@student.uns.ac.id"
+    },
+    {
+      "name": "Indah Evitasari",
+      "nim": "H0520050",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "indahevitaa01@student.uns.ac.id"
+    },
+    {
+      "name": "Muhammad Ridho",
+      "nim": "H0520083",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "muhammadridho02@student.uns.ac.id"
+    },
+    {
+      "name": "Muhammad Zahril Nuron Hawafi",
+      "nim": "H0520085",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "zahrilmuhammad@student.uns.ac.id"
+    },
+    {
+      "name": "Griselda Ivani Takare",
+      "nim": "H0520044",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "griseldaitakare@student.uns.ac.id"
+    },
+    {
+      "name": "Fifin Tria Anggraini",
+      "nim": "H0518039",
+      "departemen": "Peternakan",
+      "year": 2018,
+      "email": "fifin_triaanggraini@student.uns.ac.id"
+    },
+    {
+      "name": "Alfina Destianawati",
+      "nim": "H0520012",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "alfinadestiana04@student.uns.ac.id"
+    },
+    {
+      "name": "Benard Kyckelhahn",
+      "nim": "H0519033",
+      "departemen": "Peternakan",
+      "year": 2019,
+      "email": "benardkyc@student.uns.ac.id"
+    },
+    {
+      "name": "Aulia Fatiya Ashar",
+      "nim": "H0518013",
+      "departemen": "Peternakan",
+      "year": 2018,
+      "email": "auliafatiya13@student.uns.ac.id"
+    },
+    {
+      "name": "Septiani Munawaroh",
+      "nim": "H0520107",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "septimona@student.uns.ac.id"
+    },
+    {
+      "name": "Abdel Hakim Nabiel El Luthfiy",
+      "nim": "H0520002",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "Storyabbas2231@student.uns.ac.id"
+    },
+    {
+      "name": "Annisa nur amieni",
+      "nim": "H0518011",
+      "departemen": "Peternakan",
+      "year": 2018,
+      "email": "annisanuramieni@student.uns.ac.id"
+    },
+    {
+      "name": "Muhammad Mustaqiem",
+      "nim": "H0520082",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "mhmd.mustakim37@student.uns.ac.id"
+    },
+    {
+      "name": "Muhammad Malik Fajar",
+      "nim": "H0518059",
+      "departemen": "Peternakan",
+      "year": 2018,
+      "email": "Muhmalixfajara@student.uns.ac.id"
+    },
+    {
+      "name": "Triyas Nur Wahyuningsih",
+      "nim": "H0517097",
+      "departemen": "Peternakan",
       "year": 2017,
-      "email": "Farhansyaeful@student.uns.ac.id"
+      "email": "triyasnw16@student.uns.ac.id"
     },
     {
-      "name": "Nur Uswatun Khasanah",
-      "nim": "H0719142",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "nuruswatun_23@student.uns.ac.id"
-    },
-    {
-      "name": "Chrisiwi Mustikaning Ati",
-      "nim": "H0720040",
-      "departemen": "Agroteknologi",
+      "name": "Yusuf Sholehudin",
+      "nim": "H0520120",
+      "departemen": "Peternakan",
       "year": 2020,
-      "email": "chrisiwima@student.uns.ac.id"
+      "email": "yusufsholehudin3101@student.uns.ac.id"
     },
     {
-      "name": "Ratri Widyawati",
-      "nim": "H0719153",
-      "departemen": "Agroteknologi",
+      "name": "Dimas Ariyanto Prasetyo",
+      "nim": "H0519048",
+      "departemen": "Peternakan",
       "year": 2019,
-      "email": "ratriwidyawati10@student.uns.ac.id"
+      "email": "dimas871ari@student.uns.ac.id"
     },
     {
-      "name": "Jeffrizal Muhammad",
-      "nim": "H0719097",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "jeffrizalmuhammad@student.uns.ac.id"
-    },
-    {
-      "name": "Ali Mustofa",
-      "nim": "H0718015",
-      "departemen": "Agroteknologi",
+      "name": "Arga gumilhang",
+      "nim": "H0518012",
+      "departemen": "Peternakan",
       "year": 2018,
-      "email": "aliemustofa32@student.uns.ac.id"
+      "email": "Argapratama18@student.uns.ac.id"
     },
     {
-      "name": "Marsa Al Hanan Sifai",
-      "nim": "H0718093",
-      "departemen": "Agroteknologi",
+      "name": "Fiqi Rahman Jati",
+      "nim": "H0518040",
+      "departemen": "Peternakan",
       "year": 2018,
-      "email": "marsasifai95@student.uns.ac.id"
+      "email": "Fiqirahman@student.uns.ac.id"
     },
     {
-      "name": "Fauziyah Umi Adiningtyas",
-      "nim": "H0719069",
-      "departemen": "Agroteknologi",
+      "name": "Andini Nurlaelasari",
+      "nim": "H0519016",
+      "departemen": "Peternakan",
       "year": 2019,
-      "email": "ucik.adiningtyas12@student.uns.ac.id"
+      "email": "andini30102001@student.uns.ac.id"
     },
     {
-      "name": "Ariya Mahmud Tahannatha Agung",
-      "nim": "H0719021",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "ariyamahmud12@student.uns.ac.id"
-    },
-    {
-      "name": "Taufik Cahya Raharja",
-      "nim": "H0719176",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "taufikcahya@student.uns.ac.id"
-    },
-    {
-      "name": "BRQ DAGFA INKA MAHADIKA",
-      "nim": "H0719039",
-      "departemen": "Agroteknologi",
-      "year": 2019,
-      "email": "Brqdagfa6@student.uns.ac.id"
-    },
-    {
-      "name": "Mohammad Daffa Mahadika Pradipta",
-      "nim": "H0718099",
-      "departemen": "Agroteknologi",
+      "name": "Sheva Adi Pamungkas",
+      "nim": "H0518086",
+      "departemen": "Peternakan",
       "year": 2018,
-      "email": "daffadiya@student.uns.ac.id"
+      "email": "shevaadi26@student.uns.ac.id"
     },
     {
-      "name": "Devi Mei Linda Kurniawati",
-      "nim": "H0720047",
-      "departemen": "Agroteknologi",
+      "name": "Aditya Nova Rismantoro",
+      "nim": "H0519004",
+      "departemen": "Peternakan",
+      "year": 2019,
+      "email": "Adty.nva11@student.uns.ac.id"
+    },
+    {
+      "name": "Muhamad Maulana Khasani",
+      "nim": "H0519082",
+      "departemen": "Peternakan",
+      "year": 2019,
+      "email": "maulanakhasani1819@student.uns.ac.id"
+    },
+    {
+      "name": "Laila Alfii Anisya",
+      "nim": "H0520061",
+      "departemen": "Peternakan",
       "year": 2020,
-      "email": "devilinda_25@student.uns.ac.id"
+      "email": "lailaalfii04@student.uns.ac.id"
     },
     {
-      "name": "Fatiha Nida Khoiriya",
-      "nim": "H0717056",
-      "departemen": "Agroteknologi",
+      "name": "Bagas Aji Harvian",
+      "nim": "H0517019",
+      "departemen": "Peternakan",
       "year": 2017,
-      "email": "epatihanida@student.uns.ac.is"
+      "email": "bagasajiharvian@student.uns.ac.id"
     },
     {
-      "name": "Yasin Nabil Ajaba",
-      "nim": "H0718160",
-      "departemen": "Agroteknologi",
-      "year": 2018,
-      "email": "yaseennabil@student.uns.ac"
-    },
-    {
-      "name": "Riza Anjariyani Resnanti",
-      "nim": "H0720146",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "rizaanjariyani@student.uns.ac.id"
-    },
-    {
-      "name": "Sela Firnanda I",
-      "nim": "H0720160",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "selafirna@student.uns.ac.id"
-    },
-    {
-      "name": "Oktavia Khoirun Nisa",
-      "nim": "H0720133",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "via92498@student.uns.ac.id"
-    },
-    {
-      "name": "Austina Oktavia Putri",
-      "nim": "H0720028",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "austinaputri04@student.uns.ac.id"
-    },
-    {
-      "name": "Sholikha Eka",
-      "nim": "H0718144",
-      "departemen": "Agroteknologi",
-      "year": 2018,
-      "email": "sholikha.e@student.uns.ac.id"
-    },
-    {
-      "name": "Yogi Rafina Nugrahani",
-      "nim": "H0720172",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "yogirafina34@student.uns.ac.id"
-    },
-    {
-      "name": "Alvito Seno Bachtiar",
-      "nim": "H0720012",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "vito.alvito724020@student.uns.ac.id"
-    },
-    {
-      "name": "Afifah Ika Putri",
-      "nim": "H0720005",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "afifahikaputri@student.uns.ac.id"
-    },
-    {
-      "name": "Ana Farah Rafidah",
-      "nim": "H0720015",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "ana.farahrafidah@student.uns.ac.id"
-    },
-    {
-      "name": "Aldarisma Nur Aini",
-      "nim": "H0720008",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "aldarismanur@student.uns.ac.id"
-    },
-    {
-      "name": "Azka Tsurayya",
-      "nim": "H0720032",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "tsurayyaazka9@student.uns.ac.id"
-    },
-    {
-      "name": "Autiya Za'im Mar'atu Hanifah",
-      "nim": "H0720029",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "autiyazaim28@student.uns.ac.id"
-    },
-    {
-      "name": "Arina Sekar Basuki",
-      "nim": "H0720021",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "arinasekarb@student.uns.ac.id"
-    },
-    {
-      "name": "Daffa Aqila Fadhlurrahman",
-      "nim": "H0720041",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "Daffa.aqilla.fr_15@student.uns.ac.id"
-    },
-    {
-      "name": "Adinda Kusnul Khotimah",
-      "nim": "H0720004",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "adindakusnulk@student.uns.ac.id"
-    },
-    {
-      "name": "Aisha Hanifah Puspa Riyanto",
-      "nim": "H0720007",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "aishahanifah.ah@student.uns.ac.id"
-    },
-    {
-      "name": "Nurunnisa Shafa Aliya",
-      "nim": "H0720131",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "nurunnisaaliya@student.uns.ac.id"
-    },
-    {
-      "name": "Syanly Hanan Al Sidan Prayitno",
-      "nim": "H0720165",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "syanlyhnn@student.uns.ac.id"
-    },
-    {
-      "name": "Wisnu Prasetyo Aji",
-      "nim": "H0720171",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "wisnu_prasetyo31@student.uns.ac.id"
-    },
-    {
-      "name": "Fiorella Diva Azzahra",
-      "nim": "H0720067",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "fiorelladivaa@student.uns.ac.id"
-    },
-    {
-      "name": "Alfino Wahyu Primayuda",
-      "nim": "H0720009",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "alf27wp@student.uns.ac.id"
-    },
-    {
-      "name": "Galuh Intan Kumalasari",
-      "nim": "H0720073",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "kumalasariintan@student.uns.ac.id"
-    },
-    {
-      "name": "Fajar Anwar Hidayad",
-      "nim": "H0720062",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "Fajarhiadayad10@student.uns.ac.id"
-    },
-    {
-      "name": "Deviana Dwi Saputri",
-      "nim": "H0720048",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "devianadwi@student.uns.ac.id"
-    },
-    {
-      "name": "Fara Nabila",
-      "nim": "H0720064",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "faranabila127@student.uns.ac.id"
-    },
-    {
-      "name": "Vania setowati ubayadi",
-      "nim": "H0720169",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "vaniasetowati@student.uns.ac.id"
-    },
-    {
-      "name": "Meilia Ayu Mutiara",
-      "nim": "H0720103",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "meiliaayumutiara@student.uns.ac.id"
-    },
-    {
-      "name": "Husna Warsila Sujono",
-      "nim": "H0720085",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "husnawarsila@student.uns.ac.id"
-    },
-    {
-      "name": "Jen Priatama Nugraha",
-      "nim": "H0718078",
-      "departemen": "Agroteknologi",
-      "year": 2018,
-      "email": "jenpriataman123@student.uns.ac.id"
-    },
-    {
-      "name": "Fauzan Hariawan",
-      "nim": "H0720065",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "fzn.hrwn10@student.uns.ac.id"
-    },
-    {
-      "name": "Kristina ayu isnaeni",
-      "nim": "H0720098",
-      "departemen": "Agroteknologi",
-      "year": 2020,
-      "email": "Kristinaayu859@student.uns.ac.id"
-    },
-    {
-      "name": "Audhia An Nafisa",
-      "nim": "H0719026",
-      "departemen": "Agroteknologi",
+      "name": "Nanik Rochana",
+      "nim": "H0519092",
+      "departemen": "Peternakan",
       "year": 2019,
-      "email": "audhiaa0208@student.uns.ac.id"
+      "email": "nanikrch01@student.uns.ac.id"
     },
     {
-      "name": "Millata Akmaliya H",
-      "nim": "H0720105",
-      "departemen": "Agroteknologi",
+      "name": "Arif Setya Nugraha",
+      "nim": "H0517115",
+      "departemen": "Peternakan",
+      "year": 2017,
+      "email": "arifsetyanugraha960@student.uns.ac.id"
+    },
+    {
+      "name": "Nadia Khairunisa Agustin",
+      "nim": "H0517066",
+      "departemen": "Peternakan",
+      "year": 2017,
+      "email": "nadiakhairunisa88@student.uns.ac.id"
+    },
+    {
+      "name": "Satria Adi P",
+      "nim": "H0518084",
+      "departemen": "Peternakan",
+      "year": 2018,
+      "email": "Pradanasatria7@student.uns.ac.id"
+    },
+    {
+      "name": "Djorodjatun Samodro Sakti",
+      "nim": "H0518027",
+      "departemen": "Peternakan",
+      "year": 2018,
+      "email": "samodrosakti19@student.uns.ac.id"
+    },
+    {
+      "name": "Amira Fathin Rodhiyah",
+      "nim": "H0519014",
+      "departemen": "Peternakan",
+      "year": 2019,
+      "email": "Amirafathinrodhiyah_9@student.uns.ac.id"
+    },
+    {
+      "name": "Renda Adib Tantra Wijaya",
+      "nim": "H0520099",
+      "departemen": "Peternakan",
       "year": 2020,
-      "email": "millataakmaliya@student.uns.ac.id"
+      "email": "tantrawijaya12@student.uns.ac.id"
+    },
+    {
+      "name": "Nur Mayazah Churin'in",
+      "nim": "H0519096",
+      "departemen": "Peternakan",
+      "year": 2019,
+      "email": "nurma.yazah99@student.uns.ac.id"
+    },
+    {
+      "name": "Dhian Enggal Widyastuti",
+      "nim": "H0519044",
+      "departemen": "Peternakan",
+      "year": 2019,
+      "email": "dhianenggal_13@student.uns.ac.id"
+    },
+    {
+      "name": "Aisyah Retno Wulandari",
+      "nim": "H0519001",
+      "departemen": "Peternakan",
+      "year": 2019,
+      "email": "aisyahretno@student.uns.ac.id"
+    },
+    {
+      "name": "Deni Estu Pamungkas",
+      "nim": "H0520030",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "deniestu7@student.uns.ac.id"
+    },
+    {
+      "name": "Chintianna Widhi Atthahirah",
+      "nim": "H9519038",
+      "departemen": "Peternakan",
+      "year": 2019,
+      "email": "chintia_widhi101@student.uns.ac.id"
+    },
+    {
+      "name": "Rafi s",
+      "nim": "H0519100",
+      "departemen": "Peternakan",
+      "year": 2019,
+      "email": "rafishidqi20@student.uns.ac.id"
+    },
+    {
+      "name": "Hilwa Tsabita Fidinillah",
+      "nim": "H0519064",
+      "departemen": "Peternakan",
+      "year": 2019,
+      "email": "hilwatsa@student.uns.ac.id"
+    },
+    {
+      "name": "Faqih Athaillah Gani",
+      "nim": "H0520040",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "faqih.gani02@student.uns.ac.id"
+    },
+    {
+      "name": "Utomo Fachrul Umam",
+      "nim": "H0517101",
+      "departemen": "Peternakan",
+      "year": 2017,
+      "email": "utomofu@student.uns.ac.id"
+    },
+    {
+      "name": "Siti Arlinda Nurhidayati",
+      "nim": "H0519117",
+      "departemen": "Peternakan",
+      "year": 2019,
+      "email": "arlindanurhidayati27@student.uns.ac.id"
+    },
+    {
+      "name": "Ahmad Umar Aditya B",
+      "nim": "H0520007",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "umar_aditya7@student.uns.ac.id"
+    },
+    {
+      "name": "Ika N",
+      "nim": "H0518047",
+      "departemen": "Peternakan",
+      "year": 2018,
+      "email": "ikangadyas@student.uns.ac.id"
+    },
+    {
+      "name": "Abdul Halim Ayyubi",
+      "nim": "H0520003",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "youbee192@student.uns.ac.id"
+    },
+    {
+      "name": "Muhammad Zidane Adhi Surya",
+      "nim": "H0520086",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "zidane.surya071@student.uns.ac.id"
+    },
+    {
+      "name": "Kurnia Sari",
+      "nim": "H0520060",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "Kurniasari_28@student.uns.ac.id"
+    },
+    {
+      "name": "Fadillah wirahmat",
+      "nim": "H0520037",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "fadillahwrmt@student.uns.ac.id"
+    },
+    {
+      "name": "Darrell Syandanareza",
+      "nim": "H0520029",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "darrellsreza@student.uns.ac.id"
+    },
+    {
+      "name": "Triyan Prastiwi",
+      "nim": "H0520113",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "triyanprastiwi@student.uns.ac.id"
+    },
+    {
+      "name": "Desi Fitriyani",
+      "nim": "H0520031",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "desifitriyani@student.uns.ac.id"
+    },
+    {
+      "name": "Annisa Hasna Ayu Luffita",
+      "nim": "H0520017",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "hasnaannisa28@student.uns.ac.id"
+    },
+    {
+      "name": "Uly Adiana Setyowati",
+      "nim": "H0519123",
+      "departemen": "Peternakan",
+      "year": 2019,
+      "email": "ulyadianas@student.uns.ac.id"
+    },
+    {
+      "name": "Nimas Alifia Nastiti",
+      "nim": "H0518065",
+      "departemen": "Peternakan",
+      "year": 2018,
+      "email": "Honastitui@student.uns.ac.id"
+    },
+    {
+      "name": "Giandhar Ryandita Fernanda",
+      "nim": "H0520043",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "Giandharryandita20@student.uns.ac.id"
+    },
+    {
+      "name": "Sholihatunnisa Zahra Firstnanda",
+      "nim": "H0519116",
+      "departemen": "Peternakan",
+      "year": 2019,
+      "email": "sholihatun.nisa.01@student.uns.ac.id"
+    },
+    {
+      "name": "Nazula Sifaannida",
+      "nim": "H0520088",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "nazulasifaannida@student.uns.ac.id"
+    },
+    {
+      "name": "Aan Dwiky Handoyo",
+      "nim": "H0520001",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "aandwikyhandoyo@student.uns.ac.id"
+    },
+    {
+      "name": "Aisyah Rahayu",
+      "nim": "H0520009",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "aisyahrahayu@student.uns.ac.id"
+    },
+    {
+      "name": "Chilla Lorantika Putri",
+      "nim": "H0519037",
+      "departemen": "Peternakan",
+      "year": 2019,
+      "email": "chillaloran@student.uns.ac.id"
+    },
+    {
+      "name": "Windi Nur Yuliana",
+      "nim": "H0518096",
+      "departemen": "Peternakan",
+      "year": 2018,
+      "email": "Windi.yuliana8@student.uns.ac.id"
+    },
+    {
+      "name": "Muhammad Fairus ferdiansyah",
+      "nim": "H0520080",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "Ferdiansyahfairus82@student.uns.ac.id"
+    },
+    {
+      "name": "Mariana Arga Putri",
+      "nim": "H0520069",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "marianaarga4@student.unc.ac.id"
+    },
+    {
+      "name": "Linggarjati Hijri Hilalliyah",
+      "nim": "H0520064",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "linggarjati23@student.uns.ac.id"
+    },
+    {
+      "name": "Hesti Fatonah",
+      "nim": "H0520048",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "hestifatonah13@student.uns.ac.id"
+    },
+    {
+      "name": "Bagus Miftah Wal Huda",
+      "nim": "H0519032",
+      "departemen": "Peternakan",
+      "year": 2019,
+      "email": "bagusmiftah49@student.uns.ac.id"
+    },
+    {
+      "name": "Firmansyah Tristadika Prakosa",
+      "nim": "H0519057",
+      "departemen": "Peternakan",
+      "year": 2019,
+      "email": "tristadika@student.uns.ac.id"
+    },
+    {
+      "name": "Saradiva Bilqisyah Azka",
+      "nim": "H0520105",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "saradivaazka@student.uns.ac.id"
+    },
+    {
+      "name": "Ammar Zaki Mubarok",
+      "nim": "H0520014",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "ammarzakimubarok@student.uns.ac.id"
+    },
+    {
+      "name": "Ananda Rizqi Prima",
+      "nim": "H0520015",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "Primananda811@student.uns.ac.id"
+    },
+    {
+      "name": "Aprilya Hanifah Tamartian",
+      "nim": "H0520018",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "aprilyahanifah29@student.uns.ac.id"
+    },
+    {
+      "name": "Dinda Eka Pramesti",
+      "nim": "H0520034",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "dindaekapramesti@student.uns.ac.id"
+    },
+    {
+      "name": "Diska Difiana Salsabilla",
+      "nim": "H0520035",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "Diskads20@student.uns.ac.id"
+    },
+    {
+      "name": "Nur Lathifatun Nisa",
+      "nim": "H0520090",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "nurlathifa17@student.uns.ac.id"
+    },
+    {
+      "name": "Naufalda Aqil Mumtazah",
+      "nim": "H0520087",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "s9029py@student.uns.ac.id"
+    },
+    {
+      "name": "Muhammad Irfan Robbani",
+      "nim": "H0520081",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "muhammadirfan.rob@student.uns.ac.id"
+    },
+    {
+      "name": "Sholahulhaq Nur Hamid",
+      "nim": "H0520108",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "nurhamid27@student.uns.ac.id"
+    },
+    {
+      "name": "Revina Natria Dewi",
+      "nim": "H0520100",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "revina240102@student.uns.ac.id"
+    },
+    {
+      "name": "Okalya Shiva Yuanwidhita",
+      "nim": "H0520093",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "okalyayuanwidhita@student.uns.ac.id"
+    },
+    {
+      "name": "NUR RIZKI AULIA SALSABILA",
+      "nim": "H0520091",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "nurrizkiauliasalsabi@student.uns.ac.id"
+    },
+    {
+      "name": "Putri Amarta Thamhari",
+      "nim": "H0520095",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "pemirsa20@student.uns.ac.id"
+    },
+    {
+      "name": "Rizky Ananda",
+      "nim": "H0520103",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "rizky.ananda02@student.uns.ac.id"
+    },
+    {
+      "name": "Siti Fatimah Az Zahra",
+      "nim": "H0520111",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "Sftmhazzahra14@student.uns.ac.id"
+    },
+    {
+      "name": "Silvi Indriana Nur Abdilla",
+      "nim": "H0520109",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "silviindriana@student.uns.ac.id"
+    },
+    {
+      "name": "Yusuf Pandu Raharja",
+      "nim": "H0519129",
+      "departemen": "Peternakan",
+      "year": 2019,
+      "email": "yusufpandu@student.uns.ac.id"
+    },
+    {
+      "name": "Sekana Ayatus Syifa",
+      "nim": "H0517091",
+      "departemen": "Peternakan",
+      "year": 2017,
+      "email": "sekanas24@student.uns.ac.id"
+    },
+    {
+      "name": "Marshanda Eka Salsabila",
+      "nim": "H0520070",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "marshandaeka57@student.uns.ac.id"
+    },
+    {
+      "name": "Asri Rosyadah",
+      "nim": "H0520020",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "asrirosyadah@student.uns.ac.id"
+    },
+    {
+      "name": "Isna Nuraini",
+      "nim": "H0520054",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "isnanuraini312@student.uns.ac.id"
+    },
+    {
+      "name": "Yoga Gading Permadi",
+      "nim": "H0520119",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "yogagadingpermadi@student.uns.ac.id"
+    },
+    {
+      "name": "Dita Cahyani",
+      "nim": "H0520036",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "ditacahyani@student.uns.ac.id"
+    },
+    {
+      "name": "Alsafa Lintang Puspita",
+      "nim": "H0520013",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "alsafa9a.sgr@student.uns.ac.id"
+    },
+    {
+      "name": "Cladenta Rindu Exvanza",
+      "nim": "H0519040",
+      "departemen": "Peternakan",
+      "year": 2019,
+      "email": "rinduexvanza31@student.uns.ac.id"
+    },
+    {
+      "name": "Darmawan Didi Candra",
+      "nim": "H0519042",
+      "departemen": "Peternakan",
+      "year": 2019,
+      "email": "didicandra66@student.uns.ac.id"
+    },
+    {
+      "name": "Aan Setyo Nugroho",
+      "nim": "H0519002",
+      "departemen": "Peternakan",
+      "year": 2019,
+      "email": "aansetyonugroho@student.uns.ac.id"
+    },
+    {
+      "name": "Ayu Sekar Kinasih",
+      "nim": "H0520021",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "ayusekarkinasih@student.uns.ac.id"
+    },
+    {
+      "name": "Laila Sulistyorini",
+      "nim": "H0520062",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "lailasulistyorini14@gmail.com"
+    },
+    {
+      "name": "Thoriq",
+      "nim": "H0518091",
+      "departemen": "Peternakan",
+      "year": 2018,
+      "email": "Thoriq.aldri_8899@student.uns.ac.id"
+    },
+    {
+      "name": "Zaid Surya Al Rahman",
+      "nim": "H0518100",
+      "departemen": "Peternakan",
+      "year": 2018,
+      "email": "zaidsurya0503@student.uns.ac.id"
+    },
+    {
+      "name": "Diah Lutfiah Sugar",
+      "nim": "H0519045",
+      "departemen": "Peternakan",
+      "year": 2019,
+      "email": "diah_7848@student.uns.ac.id"
+    },
+    {
+      "name": "Fahrul Ardhia Pratama",
+      "nim": "H0520038",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "fahrulardhia14@student.uns.ac.id"
+    },
+    {
+      "name": "Akira Ramadhana",
+      "nim": "H0520010",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "akiraramadhana@student.uns.ac.id"
+    },
+    {
+      "name": "Nova Rahmatika",
+      "nim": "H0518066",
+      "departemen": "Peternakan",
+      "year": 2018,
+      "email": "novarahmatika06@student.uns.ac.id"
+    },
+    {
+      "name": "Hana Listi Sabhekti",
+      "nim": "H0520045",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "hanalistisbkt@student.uns.ac.id"
+    },
+    {
+      "name": "Ummatussa'adah",
+      "nim": "H0518095",
+      "departemen": "Peternakan",
+      "year": 2018,
+      "email": "ummatussaadah85@student.uns.ac.id"
+    },
+    {
+      "name": "Adestra Ayub Syawala",
+      "nim": "H0519003",
+      "departemen": "Peternakan",
+      "year": 2019,
+      "email": "adestraa_31@student.uns.ac.id"
+    },
+    {
+      "name": "Yoga Wina Pratama",
+      "nim": "H0519127",
+      "departemen": "Peternakan",
+      "year": 2019,
+      "email": "Yowirrayoga@student.uns.ac.id"
+    },
+    {
+      "name": "Nur Mayazah Churin'in",
+      "nim": "H0519096",
+      "departemen": "Peternakan",
+      "year": 2019,
+      "email": "Nurma.yazah99@student.uns.ac.id"
+    },
+    {
+      "name": "Ratna Syifa Sintia",
+      "nim": "H0520098",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "ratnasyifa@student.uns.ac.id"
+    },
+    {
+      "name": "David Anggara Putra",
+      "nim": "H0518020",
+      "departemen": "Peternakan",
+      "year": 2018,
+      "email": "anggadavid993@student.uns.ac.id"
+    },
+    {
+      "name": "Ika Wahyuningsih",
+      "nim": "H0518049",
+      "departemen": "Peternakan",
+      "year": 2018,
+      "email": "ikawahyuningsih@student.uns.ac.id"
+    },
+    {
+      "name": "Ine febriantama",
+      "nim": "H0520051",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "Inefebri_07@student.uns.ac.id"
+    },
+    {
+      "name": "Muhamad Bagas Failasof",
+      "nim": "H0520075",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "bagasfailasof@student.uns.ac.id"
+    },
+    {
+      "name": "Siti Eshly Woro Kristi",
+      "nim": "H0520110",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "worokristi@student.uns.ac.id"
+    },
+    {
+      "name": "Asraf Abwabar Rizqi",
+      "nim": "H0519026",
+      "departemen": "Peternakan",
+      "year": 2019,
+      "email": "asyrafar06@student.uns.ac.id"
+    },
+    {
+      "name": "Dimas Dwi Setyawan",
+      "nim": "H0519049",
+      "departemen": "Peternakan",
+      "year": 2019,
+      "email": "dimas_setyawan016@student.uns.ac.id"
+    },
+    {
+      "name": "Aghitsna Gita Pradita",
+      "nim": "H0519006",
+      "departemen": "Peternakan",
+      "year": 2019,
+      "email": "aghitsna9_9@student.uns.ac.id"
+    },
+    {
+      "name": "Ahmad Musthofa Anshori",
+      "nim": "H0519008",
+      "departemen": "Peternakan",
+      "year": 2019,
+      "email": "musthofaahmad4321@students.uns.ac.id"
+    },
+    {
+      "name": "Wening Nurany",
+      "nim": "H0519125",
+      "departemen": "Peternakan",
+      "year": 2019,
+      "email": "wening.nurany@student.uns.ac.id"
+    },
+    {
+      "name": "Rifka Tifo Yuliana",
+      "nim": "H0519105",
+      "departemen": "Peternakan",
+      "year": 2019,
+      "email": "tiforibka@student.uns.ac.id"
+    },
+    {
+      "name": "Firna Fauziatul Karimah",
+      "nim": "H0519058",
+      "departemen": "Peternakan",
+      "year": 2019,
+      "email": "firnafauziatulk@student.uns.ac.id"
+    },
+    {
+      "name": "Mega Hayu Prasetyowati",
+      "nim": "H0517052",
+      "departemen": "Peternakan",
+      "year": 2017,
+      "email": "hayumega@student.uns.ac.id"
+    },
+    {
+      "name": "Taufik Ramadhani",
+      "nim": "H0519119",
+      "departemen": "Peternakan",
+      "year": 2019,
+      "email": "piktopik@student.uns.ac.id"
+    },
+    {
+      "name": "Arya Ramadhani Gunara",
+      "nim": "H0520019",
+      "departemen": "Peternakan",
+      "year": 2020,
+      "email": "arg.arya95@student.uns.ac.id"
     }
   ];
 
@@ -1756,10 +1938,10 @@ exports.new = function (req, res) {
     participant.name = _participant.name;
     participant.nim = _participant.nim;
     participant.email = _participant.email;
-    participant.session.id = "5fdc7afeb2ced16b7fcb3f42";
-    participant.session.number = 4;
-    participant.session.min = new Date("2020-12-20T21:00:00.000+07:00");
-    participant.session.max = new Date("2020-12-21T01:00:00.000+07:00");
+    participant.session.id = "5fdc7acdb2ced16b7fcb3f41";
+    participant.session.number = 3;
+    participant.session.min = new Date("2020-12-20T15:00:00.000+07:00");
+    participant.session.max = new Date("2020-12-20T21:00:00.000+07:00");
 
     // Save and validate
     participant.save(function (err) {
