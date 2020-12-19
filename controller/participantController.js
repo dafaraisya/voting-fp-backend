@@ -78,7 +78,7 @@ exports.indexByPage = async function (req, res) {
   try {
     var totalParticipant = await Participant.count();
     var participants = await Participant.find()
-      .sort({ _id: -1 })
+      .sort({ 'session.number': -1 })
       .limit(10)
       .skip((page - 1) * 10)
       .exec();
@@ -109,11 +109,6 @@ exports.view = function (req, res) {
 
 // Handle create actions
 exports.new = function (req, res) {
-  if (!ip.includes(req.ip.replace("::ffff:", ""))) {
-    console.log(req.ip.replace("::ffff:", ""));
-
-    return res.status(500).send();
-  }
   var participant = new Participant();
   participant.name = req.body.name;
   participant.nim = req.body.nim;
